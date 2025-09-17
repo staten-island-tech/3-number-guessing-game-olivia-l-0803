@@ -72,3 +72,4 @@ def starspiral(length, iterate):
 while True:
     turtle.speed(random.randint(20,100))
     starspiral(random.randint(3, 30), random.randint(40,100))
+    turtle.clear()
