@@ -46,9 +46,9 @@ while not guessed:
         guessed = True
     elif abs(randomNumber - YourAnswer) <= 2:
         YourAnswer = int(input("Very warm!! Try again: "))
-    elif abs(randomNumber - YourAnswer) <= 4:
+    elif abs(randomNumber - YourAnswer) <= 5:
         YourAnswer = int(input("Warm! Try again? "))
-    elif abs(randomNumber - YourAnswer) <= 6:
+    elif abs(randomNumber - YourAnswer) <= 8:
         YourAnswer = int(input("Cooler, try again? "))
     else:
         YourAnswer = int(input("Cold... try again.. "))
@@ -71,4 +71,4 @@ def starspiral(length, iterate):
 
 while True:
     turtle.speed(random.randint(20,100))
-    starspiral(random.randint(3, 30), random.ranint(40,100))
+    starspiral(random.randint(3, 30), random.randint(40,100))
