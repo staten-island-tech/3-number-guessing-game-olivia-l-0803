@@ -21,7 +21,7 @@ print("Lets go to level 2!")
 randomNumber = random.randint(1, 30)
 guessed = False
 
-YourAnswer = int(input("Guess a number from 1-30"))
+YourAnswer = int(input("Guess a number from 1-30: "))
 
 while not guessed: 
     if YourAnswer == randomNumber:
