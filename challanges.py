@@ -11,7 +11,7 @@ print("Im gonna tickle your feet....")
 
 
 while consent: 
-    yourAnswer = input("Tickle!!! ")
+    yourAnswer = input("Tickle!!! ").lower()
     if yourAnswer == "no" or yourAnswer == "stop":
         print("Boo..")
         consent = False
