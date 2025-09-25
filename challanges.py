@@ -7,7 +7,12 @@ while countdown != 0:
 
 consent = True
 print("Im gonna tickle your feet....")
-while consent == True:
-    reply = input("Tickle!!!! ").lower
-    if reply == "no" or reply == "stop":
-        consent == False
+
+
+
+while consent: 
+    yourAnswer = input("Tickle!!! ")
+    if yourAnswer == "no" or yourAnswer == "stop":
+        print("Boo..")
+        consent = False
+    
